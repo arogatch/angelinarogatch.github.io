@@ -1,4 +1,4 @@
-baseURL: "http://angelinarogatch.github.io/"
+baseURL: "/"
 languageCode: "en-us"
 title: "Angelina Rogatch"
 theme: hugo-profile
