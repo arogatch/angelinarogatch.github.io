@@ -35,22 +35,22 @@ Menus:
       url: /gallery
       weight: 2
     #Dropdown menu
-    # - identifier: dropdown
-    #   title: Example dropdown menu
-    #   name: Dropdown
-    #   weight: 3
-    # - identifier: dropdown1
-    #   title: example dropdown 1
-    #   name: example 1
-    #   url: /#
-    #   parent: dropdown
-    #   weight: 1
-    # - identifier: dropdown2
-    #   title: example dropdown 2
-    #   name: example 2
-    #   url: /#
-    #   parent: dropdown
-    #   weight: 2
+    - identifier: dropdown
+      title: Example dropdown menu
+      name: Dropdown
+      weight: 3
+    - identifier: dropdown1
+      title: example dropdown 1
+      name: example 1
+      url: /#
+      parent: dropdown
+      weight: 1
+    - identifier: dropdown2
+      title: example dropdown 2
+      name: example 2
+      url: /#
+      parent: dropdown
+      weight: 2
 
 params:
   title: "Hugo Profile"
@@ -136,7 +136,7 @@ params:
     button:
       enable: true
       name: "Resume"
-      url: "#"
+      url: "/Main_CV.pdf"
       download: true
       newPage: false
     socialLinks:
@@ -153,7 +153,7 @@ params:
   about:
     enable: true
     title: "About Me"
-    image: "/images/me.png"
+    image: /images/me.jpeg
     content: |-
       I am a software developer with a passion for web development. I have a background in computer science and mathematics, and I have a strong interest in the intersection of technology and art. I am currently working as a software developer at [example org.](https://example.com) in San Francisco, CA.
 
